@@ -1,5 +1,5 @@
 # JetBrains Rider
-.idea/
+.idea
 *.sln.iml
 
 # Visual Studio Code
@@ -18,5 +18,5 @@ mono_crash.*
 
 
 # Build results
-**/obj/
-**/bin/
+bin
+obj
