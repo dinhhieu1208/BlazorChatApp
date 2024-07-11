@@ -15,3 +15,8 @@ mono_crash.*
 *.cache
 *.user
 *.log
+
+
+# Build results
+**/obj/
+**/bin/
