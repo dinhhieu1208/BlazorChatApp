@@ -1,0 +1,22 @@
+# JetBrains Rider
+.idea
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+
+*.cache
+*.user
+*.log
+
+
+# Build results
+bin
+obj
