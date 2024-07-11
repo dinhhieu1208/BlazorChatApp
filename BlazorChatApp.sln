@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorChatApp", "BlazorChatApp\BlazorChatApp\BlazorChatApp.csproj", "{C9BE09DD-D89A-47CD-AD5B-D634F3C8D635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorChatApp.Client", "BlazorChatApp\BlazorChatApp.Client\BlazorChatApp.Client.csproj", "{11A55A02-0B85-47BE-B5CB-0A410C20E01E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6472F9CC-6709-4413-8FD5-A1ABC557E401}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9BE09DD-D89A-47CD-AD5B-D634F3C8D635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BE09DD-D89A-47CD-AD5B-D634F3C8D635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BE09DD-D89A-47CD-AD5B-D634F3C8D635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BE09DD-D89A-47CD-AD5B-D634F3C8D635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A55A02-0B85-47BE-B5CB-0A410C20E01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A55A02-0B85-47BE-B5CB-0A410C20E01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A55A02-0B85-47BE-B5CB-0A410C20E01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A55A02-0B85-47BE-B5CB-0A410C20E01E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

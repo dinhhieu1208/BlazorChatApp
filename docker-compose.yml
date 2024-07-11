@@ -1,0 +1,12 @@
+﻿services:
+  blazorchatapp:
+    image: blazorchatapp
+    build:
+      context: .
+      dockerfile: BlazorChatApp/BlazorChatApp/Dockerfile
+
+  blazorchatapp.client:
+    image: blazorchatapp.client
+    build:
+      context: .
+      dockerfile: BlazorChatApp/BlazorChatApp.Client/Dockerfile
